@@ -11,12 +11,12 @@
 
 @media screen and (min-width: 600px) {
 	.nav.is-active ~ .workspace {
-		width: calc(100% - 300px);
+		/* width: calc(100% - 300px); */
 	}
 }
 
 @media screen and (min-width: 1200px) {
 	.nav ~ .workspace {
-		width: calc(100% - 300px);
+		/* width: calc(100% - 300px); */
 	}
 }

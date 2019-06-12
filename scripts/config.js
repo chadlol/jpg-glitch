@@ -14,14 +14,14 @@ define(
 				language: 'language'
 			},
 			defaultControlParams: {
-				amount: {     min: 0, max: 99,  value: 24 },
-				seed: {       min: 0, max: 100, value: 53 },
-				iterations: { min: 0, max: 100, value: 21 },
-				quality: {    min: 1, max: 99,  value: 46 }
+				amount: {     min: 0, max: 99,  value:0 },
+				seed: {       min: 0, max: 100, value: 0 },
+				iterations: { min: 0, max: 100, value: 0 },
+				quality: {    min: 1, max: 99,  value: 99 }
 			},
 			defaultImage: {
-				name: 'AbrahamLincoln',
-				path: 'images/lincoln.jpg'
+				name: 'Colin',
+				path: 'images/colin.jpg'
 			},
 			workers: {
 				glitch:   'scripts/workers/glitchworker.js',

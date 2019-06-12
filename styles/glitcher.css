@@ -12,3 +12,7 @@
 @import 'modules/workspace.css';
 @import 'modules/workspace-nav.css';
 @import 'modules/about.css';
+
+nav {
+    display: none;
+}

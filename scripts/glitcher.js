@@ -343,5 +343,19 @@ require( [
 		}
 	}
 
+	document.body.onkeyup = function(e){
+		if(e.keyCode == 32){
+			console.log('randomized');
+			controlsModel.randomizeValues();
+		}
+	}
+
+
 	init();
 } );
+
+// document.body.onkeyup( event => {
+//     if(e.keyCode == 32){
+//         //your code
+//     }
+// });
